@@ -2,6 +2,9 @@ import pyperclip
 from time import sleep
 import sys
 
+# Простая форматировалка ассемблера, читает из буфера обмена,
+# (либо из stdin, строка 21) форматирует и копирует в буфер обмена
+
 false = False
 true = True
 SPACES_TO_COMM = 2
