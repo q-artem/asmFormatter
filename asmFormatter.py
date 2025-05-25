@@ -15,7 +15,7 @@ SEPARATOR_SYMBOL = ";"
 LINK_SYMBOL = ":"
 REFORMAT_LINKS = True
 
-READ_FROM_BUFFER = False
+READ_FROM_BUFFER = True
 
 
 def pre_complete_block(data: list[str], separator=LINK_SYMBOL, spaces_to_comm=SPACES_TO_COMM_LINKS,
